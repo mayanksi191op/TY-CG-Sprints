@@ -214,11 +214,11 @@ public class CustomerDaoImplementation implements CustomerDaoDeclaration {
 	 */
 	@Override
 	public String loanTypes(int k) {
-		for (int i = 1; i <= Repository.loanTypeList.size(); i++) {
-			if (i==k) {
+		for (int i = 0; i < Repository.loanTypeList.size(); i++) {
+			if ((i+1)==k) {
 				return (String) Repository.loanTypeList.get(i).get("Type");
 			}
-			logger.info(i + "> " + Repository.loanTypeList.get(i).get("Type"));
+			logger.info((i+1) + "> " + Repository.loanTypeList.get(i).get("Type"));
 		}
 		return "invalid choice";
 	}
@@ -412,5 +412,13 @@ public class CustomerDaoImplementation implements CustomerDaoDeclaration {
 			}
 		}
 		return null; 
+	}
+	
+	@Override
+	public String autoGenerateId() {
+		Integer autoGenInteger = Repository.applicationIdList.size() + 1;
+		Repository.applicationIdList.add(autoGenInteger);
+		String autoGenIdString = Integer.toString(autoGenInteger);
+		return autoGenIdString;
 	}
 }

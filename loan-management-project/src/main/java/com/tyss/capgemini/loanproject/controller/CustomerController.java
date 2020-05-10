@@ -55,24 +55,26 @@ public class CustomerController {
 				String openDate = null;
 				String requestDate = null;
 				String loanAmount = null;
-				int m = 0;
+				String m = null;
 				try {
 
-					while(count == false ) {
-						logger.info("enter the applicationId: ");
-						applicationId = Login.scanner.nextLine();
-						try {
-							if (validationClass.alphaNumValid(applicationId) == false) {
-								throw new InvalidDataException("enter numbers only");
-							} else if (FactoryClass.getCustomerServices().applicationExist(applicationId)) {
-								throw new DataAlreayExistException("id alreay exist!!!");
-							} else{
-								count = true;
-							}
-						} catch (Exception e) {
-							logger.info(e.getMessage());
-						}}
-					count = false;
+//					while(count == false ) {
+//						logger.info("enter the applicationId: ");
+//						applicationId = Login.scanner.nextLine();
+//						try {
+//							if (validationClass.alphaNumValid(applicationId) == false) {
+//								throw new InvalidDataException("enter numbers only");
+//							} else if (FactoryClass.getCustomerServices().applicationExist(applicationId)) {
+//								throw new DataAlreayExistException("id alreay exist!!!");
+//							} else{
+//								count = true;
+//							}
+//						} catch (Exception e) {
+//							logger.info(e.getMessage());
+//						}}
+//					count = false;
+					
+					applicationId = FactoryClass.getCustomerServices().autoGenerateId();
 
 					email = FactoryClass.getCustomerServices().fetchMail(custUsername);
 					
@@ -98,12 +100,24 @@ public class CustomerController {
 					
 					boolean count1 = false;
 					while(count1 == false) {
+						boolean flag = false;
+						while(flag == false) {
 						logger.info("Enter co-applicant?");
 						logger.info("1>Yes        2>No");
-						m = Login.scanner.nextInt();
-						logger.info(m);
-						Login.scanner.nextLine();
-						if (m == 1) {
+						try {
+							m = Login.scanner.nextLine();
+							if (validationClass.numMismatch1(m)== false) {
+								throw new InvalidDataException("Enter only numbers!!!");
+							} else {
+								flag = true;
+							}
+						} catch (Exception e) {
+							logger.info(e.getMessage());
+						}
+						}
+						flag = false;
+						switch (m) {
+						case "1":
 							boolean count3 = false;
 							while(count3 == false ) {
 								logger.info("enter the Co-Applicant First Name: ");
@@ -144,19 +158,17 @@ public class CustomerController {
 									logger.info(e.getMessage());
 								}}
 							count3 = false;
+							count1 = true;
+							break;
+						case "2":
+							count1 = true;
+							break;
+						default:
+							logger.info("Invalid option!!!");
+							break;
 						}
-						try {
-							if (m > 2) {
-								throw new InvalidDataException("invalid option");
-							} else {
-								count1 = true;
-							}
-						} catch (Exception e) {
-							logger.info(e.getMessage());
-						}
-
 					}
-
+					count1 = false;
 					count = false;
 					while(count == false ) {
 						logger.info("enter the Date of Birth: ");

@@ -158,4 +158,9 @@ public class CustomerServicesImplementation implements CustomerServicesDeclarati
 		return FactoryClass.getCustomerDao().returnBal(username);
 	}
 	
+	@Override
+	public String autoGenerateId() {
+		return FactoryClass.getCustomerDao().autoGenerateId();
+	}
+	
 }

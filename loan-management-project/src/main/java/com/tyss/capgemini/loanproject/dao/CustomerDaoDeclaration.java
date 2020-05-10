@@ -20,5 +20,6 @@ public interface CustomerDaoDeclaration {
 	public String fetchFirstName(String username);
 	public String fetchLastName(String username);
 	public Double returnBal(String username);
+	public String autoGenerateId();
 	
 }

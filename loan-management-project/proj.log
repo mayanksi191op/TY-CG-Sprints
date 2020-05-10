@@ -42964,3 +42964,1395 @@ Enter your choice:
 3> New user? Register
 4> Exit
 **************************************************
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+2
+enter the Date of Birth: 
+enter the Loan Type
+Available loans :-
+1> House Loan
+2> House Construction Loan
+3> Educational Loan
+4> Land Purchase Loan
+5> Personal Loan
+enter the Branch Code
+enter the Branch Name
+Enter the Loan amount
+enter the open date
+enter the Request Date
+1>SUBMIT
+2>CANCEL
+Choose one...
+Your loan application form has been submitted successfully.
+*******************************
+ApplicationId: 5
+AccountNo: qwe123
+Email: manoj.p@gmail.com
+ApplicantName: Manoj _ Sharma
+DateOfBirth: 12/12/1996
+CoApplicantName: null null null
+LoanType: House Construction Loan
+BranchCode: wqewq123
+BranchName: wqeqwe
+OpenDate: 12/12/1996
+RequestDate: 12/12/1996
+LoanStatus: requested
+*******************************
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+*******************************
+ApplicationId: 1
+AccountNo: BNI12345
+Email: manoj.p@gmail.com
+ApplicantName: Manoj Sharma 
+DateOfBirth: 14/3/1973
+CoApplicantName: Meghna Singh 
+LoanType: Personal Loan
+BranchCode: BNI22343456
+BranchName: Cannaught Circle
+OpenDate: 09/12/1992
+RequestDate: 23/5/2020
+LoanStatus: approved
+*******************************
+*******************************
+ApplicationId: 5
+AccountNo: qwe123
+Email: manoj.p@gmail.com
+ApplicantName: Manoj _ Sharma
+DateOfBirth: 12/12/1996
+CoApplicantName: null null null
+LoanType: House Construction Loan
+BranchCode: wqewq123
+BranchName: wqeqwe
+OpenDate: 12/12/1996
+RequestDate: 12/12/1996
+LoanStatus: requested
+*******************************
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------EMPLOYEE LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME saswat191--------
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+**********************
+Type: House Loan
+Time Period: 20 years(Max)
+Interest Rates: 9.75 %
+**********************
+**********************
+Type: House Construction Loan
+Time Period: 40 years(Max)
+Interest Rates: 11.0 %
+**********************
+**********************
+Type: Educational Loan
+Time Period: 5 years(Max)
+Interest Rates: 11.5 %
+**********************
+**********************
+Type: Land Purchase Loan
+Time Period: 20 years(Max)
+Interest Rates: 14.2 %
+**********************
+**********************
+Type: Personal Loan
+Time Period: 5 years(Max)
+Interest Rates: 11.14 %
+**********************
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+Enter the loan plan of applications:- 
+1> House Loan
+2> House Construction Loan
+3> Educational Loan
+4> Land Purchase Loan
+5> Personal Loan
+Choose type:-
+No applications for this plan
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+Enter the loan plan of applications:- 
+1> House Loan
+2> House Construction Loan
+3> Educational Loan
+4> Land Purchase Loan
+5> Personal Loan
+Choose type:-
+*******************************
+ApplicationId: 2
+AccountNo: BNI22345
+Email: senku.p@gmail.com
+ApplicantName: Senku Manohar 
+DateOfBirth: 14/3/1973
+CoApplicantName: Shiv Kumar Rajput
+LoanType: House Construction Loan
+BranchCode: BNI33343456
+BranchName: Cannaught Bank
+OpenDate: 12-11-2011
+RequestDate: 02-4-2020
+LoanStatus: rejected
+*******************************
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+Enter the loan plan of applications:- 
+1> House Loan
+2> House Construction Loan
+3> Educational Loan
+4> Land Purchase Loan
+5> Personal Loan
+Choose type:-
+*******************************
+ApplicationId: 3
+AccountNo: BNI21145
+Email: tarushi.p@gmail.com
+ApplicantName: Tarushi Verma 
+DateOfBirth: 14/3/1973
+CoApplicantName: Anjali Kumari 
+LoanType: Educational Loan
+BranchCode: BNI13311456
+BranchName: Purani Delhi
+OpenDate: 03-08-1920
+RequestDate: 01-4-2020
+LoanStatus: requested
+*******************************
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+Enter the loan plan of applications:- 
+1> House Loan
+2> House Construction Loan
+3> Educational Loan
+4> Land Purchase Loan
+5> Personal Loan
+Choose type:-
+*******************************
+ApplicationId: 3
+AccountNo: BNI21145
+Email: tarushi.p@gmail.com
+ApplicantName: Tarushi Verma 
+DateOfBirth: 14/3/1973
+CoApplicantName: Anjali Kumari 
+LoanType: Educational Loan
+BranchCode: BNI13311456
+BranchName: Purani Delhi
+OpenDate: 03-08-1920
+RequestDate: 01-4-2020
+LoanStatus: requested
+*******************************
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+Enter the loan plan of applications:- 
+1> House Loan
+2> House Construction Loan
+3> Educational Loan
+4> Land Purchase Loan
+5> Personal Loan
+Choose type:-
+No applications for this plan
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+Requested forms:-
+*******************************
+ApplicationId: 3
+AccountNo: BNI21145
+Email: tarushi.p@gmail.com
+ApplicantName: Tarushi Verma 
+DateOfBirth: 14/3/1973
+CoApplicantName: Anjali Kumari 
+LoanType: Educational Loan
+BranchCode: BNI13311456
+BranchName: Purani Delhi
+OpenDate: 03-08-1920
+RequestDate: 01-4-2020
+LoanStatus: requested
+*******************************
+*******************************
+ApplicationId: 5
+AccountNo: qwe123
+Email: manoj.p@gmail.com
+ApplicantName: Manoj _ Sharma
+DateOfBirth: 12/12/1996
+CoApplicantName: null null null
+LoanType: House Construction Loan
+BranchCode: wqewq123
+BranchName: wqeqwe
+OpenDate: 12/12/1996
+RequestDate: 12/12/1996
+LoanStatus: requested
+*******************************
+enter the ApplicationId for review: 
+enter the status: 
+1> Approved
+2> Rejected
+choose:-
+Status Changed successfully.
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+Enter the loan plan of applications:- 
+1> House Loan
+2> House Construction Loan
+3> Educational Loan
+4> Land Purchase Loan
+5> Personal Loan
+Choose type:-
+*******************************
+ApplicationId: 2
+AccountNo: BNI22345
+Email: senku.p@gmail.com
+ApplicantName: Senku Manohar 
+DateOfBirth: 14/3/1973
+CoApplicantName: Shiv Kumar Rajput
+LoanType: House Construction Loan
+BranchCode: BNI33343456
+BranchName: Cannaught Bank
+OpenDate: 12-11-2011
+RequestDate: 02-4-2020
+LoanStatus: rejected
+*******************************
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+Enter the loan plan of applications:- 
+1> House Loan
+2> House Construction Loan
+3> Educational Loan
+4> Land Purchase Loan
+5> Personal Loan
+Choose type:-
+*******************************
+ApplicationId: 1
+AccountNo: BNI12345
+Email: manoj.p@gmail.com
+ApplicantName: Manoj Sharma 
+DateOfBirth: 14/3/1973
+CoApplicantName: Meghna Singh 
+LoanType: Personal Loan
+BranchCode: BNI22343456
+BranchName: Cannaught Circle
+OpenDate: 09/12/1992
+RequestDate: 23/5/2020
+LoanStatus: approved
+*******************************
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+Enter the loan plan of applications:- 
+1> House Loan
+2> House Construction Loan
+3> Educational Loan
+4> Land Purchase Loan
+5> Personal Loan
+Choose type:-
+*******************************
+ApplicationId: 2
+AccountNo: BNI22345
+Email: senku.p@gmail.com
+ApplicantName: Senku Manohar 
+DateOfBirth: 14/3/1973
+CoApplicantName: Shiv Kumar Rajput
+LoanType: House Construction Loan
+BranchCode: BNI33343456
+BranchName: Cannaught Bank
+OpenDate: 12-11-2011
+RequestDate: 02-4-2020
+LoanStatus: rejected
+*******************************
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+Enter correct username and password
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+Enter correct username and password
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+2
+enter the Date of Birth: 
+enter the Loan Type
+Available loans :-
+1> House Loan
+2> House Construction Loan
+3> Educational Loan
+4> Land Purchase Loan
+5> Personal Loan
+enter the Branch Code
+enter the Branch Name
+Enter the Loan amount
+enter the open date
+enter the Request Date
+1>SUBMIT
+2>CANCEL
+Choose one...
+Your loan application form has been submitted successfully.
+*******************************
+ApplicationId: 5
+AccountNo: qwe123
+Email: manoj.p@gmail.com
+ApplicantName: Manoj _ Sharma
+DateOfBirth: 12/12/1996
+CoApplicantName: null null null
+LoanType: House Construction Loan
+BranchCode: qwe123
+BranchName: wqeqwe
+OpenDate: 12/12/1996
+RequestDate: 12/12/1997
+LoanStatus: requested
+*******************************
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+Invalid Option
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+123123
+invalid option
+Enter co-applicant?
+1>Yes        2>No
+
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+Invalid Option
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+Enter correct username and password
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+Wrong choice. Enter again
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+Enter only numbers!!!
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+Enter only numbers!!!
+Enter co-applicant?
+1>Yes        2>No
+Enter only numbers!!!
+Enter co-applicant?
+1>Yes        2>No
+Enter co-applicant?
+1>Yes        2>No
+Enter co-applicant?
+1>Yes        2>No
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+invalid option
+Enter co-applicant?
+1>Yes        2>No
+Enter only numbers!!!
+For input string: "qweqwe"
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+enter valid Password (Should contain 1Uppercase, 1Lowercase, 1Special Char, 1Number, Range-(6-20))
+Enter the Password:-
+Enter correct username and password
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+Enter co-applicant?
+1>Yes        2>No
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+Enter co-applicant?
+1>Yes        2>No
+Enter only numbers!!!
+Enter co-applicant?
+1>Yes        2>No
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+Enter co-applicant?
+1>Yes        2>No
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+Enter co-applicant?
+1>Yes        2>No
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+Wrong choice. Enter again
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+Enter co-applicant?
+1>Yes        2>No
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+Enter co-applicant?
+1>Yes        2>No
+Enter only numbers!!!
+Enter co-applicant?
+1>Yes        2>No
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+Enter only numbers!!!
+Enter co-applicant?
+1>Yes        2>No
+Enter co-applicant?
+1>Yes        2>No
+Enter co-applicant?
+1>Yes        2>No
+Enter co-applicant?
+1>Yes        2>No
+Enter co-applicant?
+1>Yes        2>No
+Enter co-applicant?
+1>Yes        2>No
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+Invalid option!!!
+Enter co-applicant?
+1>Yes        2>No
+Enter only numbers!!!
+Enter co-applicant?
+1>Yes        2>No
+enter the Date of Birth: 
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+enter the Co-Applicant First Name: 
+enter the Co-Applicant's Middle Name: 
+enter the Co-Applicant's Last Name
+Enter co-applicant?
+1>Yes        2>No
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+Enter only numbers!!!
+Enter co-applicant?
+1>Yes        2>No
+Invalid option!!!
+Enter co-applicant?
+1>Yes        2>No
+enter the Co-Applicant First Name: 
+enter the Co-Applicant's Middle Name: 
+enter the Co-Applicant's Last Name
+enter the Date of Birth: 
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+enter the Date of Birth: 
+******** W E L C O M E ********
+********      TO       ********
+********   LPS BANK    ********
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------CUSTOMER LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME manoj191---------
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+enter the Bank account number: 
+Enter co-applicant?
+1>Yes        2>No
+enter the Date of Birth: 
+enter the Loan Type
+Available loans :-
+1> House Loan
+2> House Construction Loan
+3> Educational Loan
+4> Land Purchase Loan
+5> Personal Loan
+enter the Branch Code
+enter the Branch Name
+Please enter only letters
+enter the Branch Name
+Enter the Loan amount
+enter the open date
+enter the Request Date
+1>SUBMIT
+2>CANCEL
+Choose one...
+Your loan application form has been submitted successfully.
+*******************************
+ApplicationId: 5
+AccountNo: qweqwe13213
+Email: manoj.p@gmail.com
+ApplicantName: Manoj _ Sharma
+DateOfBirth: 12/12/1996
+CoApplicantName: null null null
+LoanType: House Loan
+BranchCode: wqeqwe123123
+BranchName: qweqwe
+OpenDate: 12/12/1996
+RequestDate: 12/12/1996
+LoanStatus: requested
+*******************************
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+*******************************
+ApplicationId: 1
+AccountNo: BNI12345
+Email: manoj.p@gmail.com
+ApplicantName: Manoj Sharma 
+DateOfBirth: 14/3/1973
+CoApplicantName: Meghna Singh 
+LoanType: Personal Loan
+BranchCode: BNI22343456
+BranchName: Cannaught Circle
+OpenDate: 09/12/1992
+RequestDate: 23/5/2020
+LoanStatus: approved
+*******************************
+*******************************
+ApplicationId: 5
+AccountNo: qweqwe13213
+Email: manoj.p@gmail.com
+ApplicantName: Manoj _ Sharma
+DateOfBirth: 12/12/1996
+CoApplicantName: null null null
+LoanType: House Loan
+BranchCode: wqeqwe123123
+BranchName: qweqwe
+OpenDate: 12/12/1996
+RequestDate: 12/12/1996
+LoanStatus: requested
+*******************************
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+Wrong choice. Enter again
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+---------EMPLOYEE LOGIN---------
+Enter the Username:-
+Enter the Password:-
+--------WELCOME saswat191--------
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+**********************
+Type: House Loan
+Time Period: 20 years(Max)
+Interest Rates: 9.75 %
+**********************
+**********************
+Type: House Construction Loan
+Time Period: 40 years(Max)
+Interest Rates: 11.0 %
+**********************
+**********************
+Type: Educational Loan
+Time Period: 5 years(Max)
+Interest Rates: 11.5 %
+**********************
+**********************
+Type: Land Purchase Loan
+Time Period: 20 years(Max)
+Interest Rates: 14.2 %
+**********************
+**********************
+Type: Personal Loan
+Time Period: 5 years(Max)
+Interest Rates: 11.14 %
+**********************
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+Enter the loan plan of applications:- 
+1> House Loan
+2> House Construction Loan
+3> Educational Loan
+4> Land Purchase Loan
+5> Personal Loan
+Choose type:-
+*******************************
+ApplicationId: 5
+AccountNo: qweqwe13213
+Email: manoj.p@gmail.com
+ApplicantName: Manoj _ Sharma
+DateOfBirth: 12/12/1996
+CoApplicantName: null null null
+LoanType: House Loan
+BranchCode: wqeqwe123123
+BranchName: qweqwe
+OpenDate: 12/12/1996
+RequestDate: 12/12/1996
+LoanStatus: requested
+*******************************
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+Requested forms:-
+*******************************
+ApplicationId: 3
+AccountNo: BNI21145
+Email: tarushi.p@gmail.com
+ApplicantName: Tarushi Verma 
+DateOfBirth: 14/3/1973
+CoApplicantName: Anjali Kumari 
+LoanType: Educational Loan
+BranchCode: BNI13311456
+BranchName: Purani Delhi
+OpenDate: 03-08-1920
+RequestDate: 01-4-2020
+LoanStatus: requested
+*******************************
+*******************************
+ApplicationId: 5
+AccountNo: qweqwe13213
+Email: manoj.p@gmail.com
+ApplicantName: Manoj _ Sharma
+DateOfBirth: 12/12/1996
+CoApplicantName: null null null
+LoanType: House Loan
+BranchCode: wqeqwe123123
+BranchName: qweqwe
+OpenDate: 12/12/1996
+RequestDate: 12/12/1996
+LoanStatus: requested
+*******************************
+enter the ApplicationId for review: 
+enter the status: 
+1> Approved
+2> Rejected
+choose:-
+Status Changed successfully.
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+Requested forms:-
+*******************************
+ApplicationId: 3
+AccountNo: BNI21145
+Email: tarushi.p@gmail.com
+ApplicantName: Tarushi Verma 
+DateOfBirth: 14/3/1973
+CoApplicantName: Anjali Kumari 
+LoanType: Educational Loan
+BranchCode: BNI13311456
+BranchName: Purani Delhi
+OpenDate: 03-08-1920
+RequestDate: 01-4-2020
+LoanStatus: requested
+*******************************
+enter the ApplicationId for review: 
+enter the status: 
+1> Approved
+2> Rejected
+choose:-
+Status Changed successfully.
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+Enter the loan plan of applications:- 
+1> House Loan
+2> House Construction Loan
+3> Educational Loan
+4> Land Purchase Loan
+5> Personal Loan
+Choose type:-
+*******************************
+ApplicationId: 5
+AccountNo: qweqwe13213
+Email: manoj.p@gmail.com
+ApplicantName: Manoj _ Sharma
+DateOfBirth: 12/12/1996
+CoApplicantName: null null null
+LoanType: House Loan
+BranchCode: wqeqwe123123
+BranchName: qweqwe
+OpenDate: 12/12/1996
+RequestDate: 12/12/1996
+LoanStatus: approved
+*******************************
+=================================
+   Loan Approval Department:
+=================================
+1> View all Home loan programs: 
+2> View loan applications:
+3> Application review: 
+4> Logout
+Enter your choice: 
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************
+Visit again...

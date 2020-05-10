@@ -21,4 +21,5 @@ public interface CustomerServicesDeclaration {
 	public String fetchFirstName(String username);
 	public String fetchLastName(String username);
 	public Double returnBal(String username);
+	public String autoGenerateId();
 }
