@@ -44356,3 +44356,22 @@ Enter your choice:
 4> Exit
 **************************************************
 Visit again...
+No line found
+===========================
+   Customer Operations:-
+===========================
+1> Loan Programs:
+2> Apply for loan: 
+3> Pay Loan: 
+4> change password: 
+5> Check Balance: 
+6> View Applications
+7> Logout
+Enter your choice: 
+No line found
+********************* WELCOME ********************
+1> Login as Customer?
+2> Login as Employee?
+3> New user? Register
+4> Exit
+**************************************************

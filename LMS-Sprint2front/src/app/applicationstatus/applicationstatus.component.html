@@ -1,0 +1,68 @@
+<!-- <div class="alert alert-success"  *ngIf = 'falsemessage'>{{falsemessage}}</div>
+<div class="alert alert-danger"  *ngIf = 'truemessage'>{{truemessage}}</div> -->
+<div class="container mt-4">
+    <div class="offset-5"><h2 class="font font-weight-bolder">APPLICATION STATUS</h2></div>
+      <!-- <div class="form-row">
+        <input class="form-control col-md-3" type="search" placeholder="Search by Loan name" [(ngModel)]="nameSearch">    
+        <div class="row offset-6">
+          <h4><strong>Sort By:</strong> &nbsp;</h4>
+          <div class="form-group">
+            <select name="" id="" class="form-control" [(ngModel)]="fieldname" (change)="getSortedData()">
+              <option value="fullname">Name</option>
+              <option value="age">Age</option>
+              <option value="empid">Emp Id</option>
+            </select>
+    
+          </div>
+        </div>  
+      </div>  -->
+      <table class="table table-bordered table-hover" style="margin-left: 70px; ">
+        <thead class="thead" style="background-color: rgb(129, 196, 129);">
+          <tr>
+            <th scope="col">loanid</th>
+            <th scope="col">Applicant Name</th>
+            <th scope="col">Phone</th>
+            <th scope="col">Age</th>   
+            <th scope="col">Occupation</th>       
+            <th scope="col">Monthly Income(Rs)</th>
+            <th scope="col">City</th>
+            <th scope="col">State</th>
+            <th scope="col">Loan Type</th>
+            <th scope="col">Loan Amount</th>
+            <th scope="col">Tenure (Years)</th>
+            <th scope="col">Status</th>
+           
+          </tr>
+        </thead>
+        <tbody>
+         
+            <ng-container *ngFor = 'let application of user.applyloans'>
+              
+          <tr>
+            <td>{{application.loanid}}</td>
+            <td>{{user.fullname}}</td>
+            <td>{{user.phone}}</td>
+            <td>{{user.age}}</td>
+            <td>{{application.occupation}}</td>
+            <td>{{application.monthlyincome}}</td>
+            <td>{{application.city}}</td>
+            <td>{{application.state}}</td>
+            <td>{{application.loantype}}</td>
+            <td>{{application.loanamount}}</td>
+            <td>{{application.loantenure}}</td>
+            <td>{{application.status}}</td>
+          </tr>
+              </ng-container>
+            
+     
+        </tbody>
+      </table>
+    
+      <!-- <mat-paginator [length]="totalitems"
+      [pageSize]="itemsPerPage"
+      [pageSizeOptions]="[3, 5, 10, 25, 100]" 
+      (page) = "getNextPageItems($event)">
+    </mat-paginator> -->
+    </div>
+      
+      

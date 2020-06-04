@@ -1,0 +1,46 @@
+<div class="col-md-9 offset-md-2 mt-5">
+  <div class="offset-5"><h2 class="font font-weight-bolder">LOAN PROGRAMS</h2></div>
+      <div class="form-row">
+          <input class="form-control col-md-3" type="search" placeholder="Search by Loan name" [(ngModel)]="nameSearch">    
+          <div class="row offset-6">
+            <h4><strong>Sort By:</strong> &nbsp;</h4>
+            <div class="form-group">
+              <select name="" id="" class="form-control" [(ngModel)]="fieldname" (change)="getSortedData()">
+                <option value="loanname">loanname</option>
+                <option value="interestrates">interestrates</option>
+                <option value="maxtenure">maxtenure</option>
+              </select>
+    
+            </div>
+          </div>  
+        </div> 
+    
+    <table class="table table-bordered">
+        <thead class="thead" style="background-color:  rgb(129, 196, 129)">
+          <tr>
+            <th scope="col">Loan Type</th>
+            <th scope="col">Valid Age (years)</th>
+            <th scope="col">Interest Rates (%)</th>
+            <th scope="col">Maximum Tenure Period (years)</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let loan of pageLoans | filterpipe:nameSearch'>
+                <td>{{ loan.loanname }}</td>
+                <td>{{ loan.validage }}</td>
+                <td>{{ loan.interestrates}}</td>
+                <td>{{ loan.maxtenure }}</td>
+            </tr>          
+        </tbody>
+      </table>
+      <mat-paginator [length]="totalitems"
+              [pageSize]="itemsPerPage"
+              [pageSizeOptions]="[3, 5, 10, 25, 100]" 
+              (page) = "getNextPageItems($event)">
+      </mat-paginator>
+
+      <div *ngIf='!login.isLogged() || login.isCustomer()'>
+        <a routerLink="/applyregister"><strong class="font-italic text-dark">Apply for loan?</strong></a> 
+      </div>
+      
+</div>

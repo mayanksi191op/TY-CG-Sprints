@@ -1,0 +1,55 @@
+<div class="alert alert-success text-center"  *ngIf = 'falsemessage'>{{falsemessage}}</div>
+<div class="alert alert-danger text-center"  *ngIf = 'truemessage'>{{truemessage}}</div>
+<div class="col-md-9 offset-md-2 mt-5">
+  <div class="offset-5"><h2 class="font font-weight-bolder">LOAN PROGRAMS</h2></div>
+  <div class="form-row">
+    <input class="form-control col-md-3" type="search" placeholder="Search by Loan name" [(ngModel)]="nameSearch">    
+    <div class="row offset-6">
+      <h4><strong>Sort By:</strong> &nbsp;</h4>
+      <div class="form-group">
+        <select name="" id="" class="form-control" [(ngModel)]="fieldname" (change)="getSortedData()">
+          <option value="loanname">loanname</option>
+          <option value="interestrates">interestrates</option>
+          <option value="maxtenure">maxtenure</option>
+        </select>
+
+      </div>
+    </div>  
+  </div> 
+    <table class="table table-bordered">
+        <thead class="thead" style="background-color:  rgb(129, 196, 129)">
+          <tr>
+            <th scope="col">Loan Type</th>
+            <th scope="col">Valid Age (years)</th>
+            <th scope="col">Interest Rates (%)</th>
+            <th scope="col">Maximum Tenure Period (years)</th>
+            <th scope="col">Update</th>
+            <th scope="col">Delete</th>
+
+        </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let loan of pageLoans | filterpipe:nameSearch'>
+                <td>{{ loan.loanname }}</td>
+                <td>{{ loan.validage }}</td>
+                <td>{{ loan.interestrates }}</td>
+                <td>{{ loan.maxtenure }}</td>
+                <td>
+                    <div class="btn" style="color: rgb(129, 196, 129); background-color: rgb(71, 71, 138);" (click)='selectLoan(loan)'><strong>Update</strong></div>  
+                </td>
+                <td>
+                    <div class="btn" style="color: rgb(129, 196, 129); background-color: rgb(71, 71, 138);" (click)='deleteLoan(loan)'><strong>Delete</strong></div>
+                </td>
+            </tr>
+    
+        </tbody>
+      </table>
+
+      <mat-paginator [length]="totalitems"
+              [pageSize]="itemsPerPage"
+              [pageSizeOptions]="[3, 5, 10, 25, 100]" 
+              (page) = "getNextPageItems($event)">
+      </mat-paginator>      
+     
+</div>
+<div class="mt-4"></div>
